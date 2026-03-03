@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 class CustomCard extends StatelessWidget{
   final String title;
   final String subtitle;
-  final IconData icon;
   final bool isSelected;
+  final String imagen;
 
   const CustomCard({
     super.key,
     required this.title,
     required this.subtitle,
-    required this.icon,
     required this.isSelected,
+    required this.imagen,
   }); 
 
 @override
@@ -20,7 +20,9 @@ class CustomCard extends StatelessWidget{
       elevation: 0,
       color: isSelected ? const Color.fromARGB(31, 99, 99, 99) : const Color.fromARGB(100, 15, 16, 20),
       child: ListTile(
-        leading: Icon(icon, size: 32, color: const Color(0xFF868690)),
+        leading: CircleAvatar(
+          backgroundImage: NetworkImage(imagen),
+        ),
         title: Text(
           title,
           style: const TextStyle(fontWeight: FontWeight.bold, color: Color(0xFF868690)),
