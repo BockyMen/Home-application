@@ -36,7 +36,7 @@ class MainApp extends StatelessWidget {
               ),
               CustomCard(
                 title: "Kirby",
-                subtitle: "Fachero",
+                subtitle: "Facherisimo",
                 isSelected: false,
                 imagen: "https://pbs.twimg.com/profile_images/1512424162505150469/1iqopIbB_400x400.jpg",
               ),
