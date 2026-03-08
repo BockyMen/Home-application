@@ -72,7 +72,7 @@ class MainApp extends StatelessWidget {
               ),
               CustomCard(
                 title: "Pablo",
-                subtitle: "El chisme es vida",
+                subtitle: "Todos es culpa de Tasha",
                 isSelected: false,
                 imagen: "https://i.pinimg.com/1200x/02/13/0c/02130c599d2b8c0271c4d970d32e67bf.jpg",
               ),
