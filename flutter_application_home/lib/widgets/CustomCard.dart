@@ -5,6 +5,7 @@ class CustomCard extends StatelessWidget {
   final String subtitle;
   final bool isSelected;
   final String imagen;
+  final String mensaje;
 
   const CustomCard({
     super.key,
@@ -12,6 +13,7 @@ class CustomCard extends StatelessWidget {
     required this.subtitle,
     required this.isSelected,
     required this.imagen,
+    required this.mensaje,
   });
 
   @override
@@ -28,10 +30,11 @@ class CustomCard extends StatelessWidget {
           style: const TextStyle(
             fontWeight: FontWeight.bold,
             color: Color(0xFF868690),
+            fontFamily: "Discord",
           ),
         ),
         subtitle: Text(subtitle),
-        trailing: const Icon(Icons.close),
+        trailing: Text(mensaje, style: TextStyle(fontSize: 14, color: Color.fromARGB(169, 134, 134, 144), fontFamily: "Discord", fontWeight: FontWeight.w500)),
       ),
     );
   }
@@ -89,7 +92,8 @@ class UserNotification extends StatelessWidget {
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 15,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w500,
+                      fontFamily: "Discord"
                     ),
                   ),
                   const SizedBox(height: 6),
@@ -98,6 +102,7 @@ class UserNotification extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 14,
                       color: Colors.white,
+                      fontFamily: "Discord"
                     ),
                   ),
                 ],
