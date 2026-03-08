@@ -40,7 +40,7 @@ class MainApp extends StatelessWidget {
                 children: [
                   UserNotification(imagen: "https://i.pinimg.com/474x/a7/de/c4/a7dec46aca07b2e12e2e361cfa9312ec.jpg", title: 'SebitasV y hide en lan', title2: 'General'),
                   UserNotification(imagen: "https://i.pinimg.com/474x/74/bb/34/74bb340ffe87e31837a04a538f1bbc10.jpg", title: 'Osvaldo', title2: 'Online'),
-                  UserNotification(imagen: "https://yt3.googleusercontent.com/lDfhM9v8EMD9xu5AySo8KXDP0PwajfJowF66T3Kmte6mLl69okvXnFav3zWr01mO7jNonq19-Ow=s160-c-k-c0x00ffffff-no-rj", title: 'BockyMen', title2: 'Resident Evil Requiem')
+                  UserNotification(imagen: "https://yt3.googleusercontent.com/lDfhM9v8EMD9xu5AySo8KXDP0PwajfJowF66T3Kmte6mLl69okvXnFav3zWr01mO7jNonq19-Ow=s160-c-k-c0x00ffffff-no-rj", title: 'BockyMen', title2: 'Jugando Resident Evil Requiem')
                 ],
               ),
             ),
