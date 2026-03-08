@@ -30,7 +30,6 @@ class MainApp extends StatelessWidget {
             children: [
               CustomCard(
                 title: "Minecraft",
-                subtitle: "PvP",
                 isSelected: true,
                 imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Minecraft-creeper-face.svg/1280px-Minecraft-creeper-face.svg.png",
               ),
