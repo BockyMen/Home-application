@@ -5,7 +5,7 @@ class CustomCard extends StatelessWidget {
   final String subtitle;
   final bool isSelected;
   final String imagen;
-  final String mensaje;
+  final String tiempo;
 
   const CustomCard({
     super.key,
@@ -13,7 +13,7 @@ class CustomCard extends StatelessWidget {
     required this.subtitle,
     required this.isSelected,
     required this.imagen,
-    required this.mensaje,
+    required this.tiempo,
   });
 
   @override
@@ -34,7 +34,7 @@ class CustomCard extends StatelessWidget {
           ),
         ),
         subtitle: Text(subtitle),
-        trailing: Text(mensaje, style: TextStyle(fontSize: 14, color: Color.fromARGB(169, 134, 134, 144), fontFamily: "Discord", fontWeight: FontWeight.w500)),
+        trailing: Text(tiempo, style: TextStyle(fontSize: 14, color: Color.fromARGB(169, 134, 134, 144), fontFamily: "Discord", fontWeight: FontWeight.w500)),
       ),
     );
   }
