@@ -55,6 +55,7 @@ class UserNotification extends StatelessWidget {
       width: 300,
       margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
       decoration: BoxDecoration(
+        color: const Color.fromARGB(255, 12, 11, 16),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Padding(
@@ -66,6 +67,12 @@ class UserNotification extends StatelessWidget {
               height: double.infinity, // Este se utiliza para que la imagen ocupe todo el espacio del widghet, no se como sirve exactamente, pero lo funciono xd.
               margin: const EdgeInsets.only(right: 12),
               decoration: BoxDecoration(
+                color: Colors.grey,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(
+                  color:Colors.grey,
+                  width: 5,
+                ),
                 image: DecorationImage(
                   image: NetworkImage(imagen),
                   fit: BoxFit.cover,
