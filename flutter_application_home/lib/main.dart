@@ -33,7 +33,7 @@ class MainApp extends StatelessWidget {
         body: ListView(
           children: [
             SizedBox(
-              height: 100,
+              height: 110,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
