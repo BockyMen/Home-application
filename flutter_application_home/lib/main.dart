@@ -12,7 +12,6 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        
         backgroundColor: const Color.fromARGB(150, 15, 16, 20),
         appBar: AppBar(
           toolbarHeight: 150,
