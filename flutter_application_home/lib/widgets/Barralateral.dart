@@ -43,6 +43,7 @@ class barraLateralFija extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 12,
                         fontWeight: FontWeight.bold,
+                        fontFamily: "Discord"
                       ),
                     ),
                   ),
