@@ -30,11 +30,12 @@ class CustomCard extends StatelessWidget {
           style: const TextStyle(
             fontWeight: FontWeight.bold,
             color: Color(0xFF868690),
-            fontFamily: "Discord",
+            fontFamily: "Handjet",
+            letterSpacing: 2.0,
           ),
         ),
         subtitle: Text(subtitle),
-        trailing: Text(tiempo, style: TextStyle(fontSize: 14, color: Color.fromARGB(169, 134, 134, 144), fontFamily: "Discord", fontWeight: FontWeight.w500)),
+        trailing: Text(tiempo, style: TextStyle(fontSize: 14, color: Color.fromARGB(169, 134, 134, 144), fontFamily: "Handjet", fontWeight: FontWeight.w500, letterSpacing: 2.0)),
       ),
     );
   }
@@ -93,7 +94,8 @@ class UserNotification extends StatelessWidget {
                       color: Colors.white,
                       fontSize: 15,
                       fontWeight: FontWeight.w500,
-                      fontFamily: "Discord"
+                      fontFamily: "Handjet",
+                      letterSpacing: 2.0,
                     ),
                   ),
                   const SizedBox(height: 6),
@@ -102,7 +104,8 @@ class UserNotification extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 14,
                       color: Colors.white,
-                      fontFamily: "Discord"
+                      fontFamily: "Handjet",
+                      letterSpacing: 2.0,
                     ),
                   ),
                 ],
