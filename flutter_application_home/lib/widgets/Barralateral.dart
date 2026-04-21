@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class barraLateralFija extends StatelessWidget {
+class barraLateralFija extends StatefulWidget {
   final String image;
   final bool isMessaged;
   final int message;
@@ -13,43 +13,72 @@ class barraLateralFija extends StatelessWidget {
   });
 
   @override
+  State<barraLateralFija> createState() => _barraLateralFijaState();
+}
+
+class _barraLateralFijaState extends State<barraLateralFija> {
+  late int contador;
+
+  @override
+  void initState() {
+    super.initState();
+    contador = widget.message;
+  }
+
+  void aumentarContador() {
+    setState(() {
+      contador++;
+    });
+  }
+
+  String getTexto() {
+    if (contador >= 10) {
+      return "9+";
+    }
+    return contador.toString();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Stack(
-          children: [
-            CircleAvatar(
-              radius: 30,
-              backgroundImage: NetworkImage(image),
-            ),
-            if (isMessaged)
-              Positioned(
-                bottom: 0,
-                right: 0,
-                child: Container(
-                  padding: const EdgeInsets.all(2),
-                  decoration: const BoxDecoration(
-                    color: Colors.red,
-                    shape: BoxShape.circle,
-                  ),
-                  constraints: const BoxConstraints(
-                    minWidth: 18,
-                    minHeight: 18,
-                  ),
-                  child: Center(
-                    child: Text(
-                      message.toString(),
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                        fontFamily: "Discord"
+        GestureDetector(
+          onTap: aumentarContador,
+          child: Stack(
+            children: [
+              CircleAvatar(
+                radius: 30,
+                backgroundImage: NetworkImage(widget.image),
+              ),
+              if (widget.isMessaged)
+                Positioned(
+                  bottom: 0,
+                  right: 0,
+                  child: Container(
+                    padding: const EdgeInsets.all(2),
+                    decoration: const BoxDecoration(
+                      color: Colors.red,
+                      shape: BoxShape.circle,
+                    ),
+                    constraints: const BoxConstraints(
+                      minWidth: 18,
+                      minHeight: 18,
+                    ),
+                    child: Center(
+                      child: Text(
+                        getTexto(),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: "Discord",
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
-          ],
+            ],
+          ),
         ),
       ],
     );
