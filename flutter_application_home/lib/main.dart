@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(150, 15, 16, 20),
+        backgroundColor: const Color.fromARGB(255, 29, 3, 53),
 
         body: Padding(padding: 
         EdgeInsetsGeometry.directional(top: 40),
@@ -22,7 +22,7 @@ class MainApp extends StatelessWidget {
             padding: EdgeInsets.all(5),
             width: 60,
             decoration: BoxDecoration(
-              color: Colors.black,
+              color: const Color.fromARGB(255, 44, 5, 80),
             ),
           child: ListView(
             padding: EdgeInsets.zero,
