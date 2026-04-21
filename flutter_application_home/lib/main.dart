@@ -34,7 +34,7 @@ class MainApp extends StatelessWidget {
                     Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 95, 119, 213),
+                        color: const Color.fromARGB(255, 155, 1, 185),
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: const Icon(Icons.messenger_sharp, color: Colors.white),
@@ -297,7 +297,7 @@ class MainApp extends StatelessWidget {
           currentIndex: 0,
           selectedItemColor: const Color(0xffffffff),
           unselectedItemColor: const Color(0xFF868690),
-          backgroundColor: const Color.fromARGB(255, 11, 3, 43),
+          backgroundColor: const Color.fromARGB(255, 20, 0, 39),
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(
