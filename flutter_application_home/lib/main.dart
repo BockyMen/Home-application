@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 29, 3, 53),
 
         body: Padding(padding: 
-        EdgeInsetsGeometry.directional(top: 40),
+        EdgeInsets.only(top: 40),
         
         child: Row(children: [
           Container(
