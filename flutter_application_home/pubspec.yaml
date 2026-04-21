@@ -14,6 +14,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   uses-material-design: true
@@ -31,7 +32,7 @@ flutter:
         - asset: assets/fonts/ABCGintoDiscord-MediumItalic.ttf
           weight: 500
           style: italic
-          
+
     - family: Handjet
       fonts:
         - asset: assets/fonts/Handjet-Thin.ttf
@@ -52,3 +53,10 @@ flutter:
           weight: 800
         - asset: assets/fonts/Handjet-Black.ttf
           weight: 900
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/Discord.png"
+  image_pathadaptive_icon_foreground: "assets/icon/Discord.png"
+  adaptive_icon_background: "#4B0061"
