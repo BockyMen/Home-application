@@ -299,7 +299,7 @@ class MainApp extends StatelessWidget {
           unselectedItemColor: const Color(0xFF868690),
           backgroundColor: const Color.fromARGB(255, 11, 3, 43),
           items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(icon: Icon(Icons.star), label: "Home"),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(
               icon: Icon(Icons.notifications),
               label: "Notifications",
