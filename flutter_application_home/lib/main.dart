@@ -141,7 +141,7 @@ class MainApp extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Mensajes", style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 200, 200, 207), fontWeight: FontWeight.w500, fontFamily: "Discord")),
+                  Text("Mensajes", style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 200, 200, 207), fontWeight: FontWeight.w500, fontFamily: "Handjet", letterSpacing: 2.0)),
                   const SizedBox(height: 10),
                   Row(
                     children: [
@@ -166,7 +166,7 @@ class MainApp extends StatelessWidget {
                                   children: [
                                     Icon(Icons.person_add,color: Color.fromARGB(255, 181, 181, 192), size: 25,),
                                     SizedBox(width: 8),
-                                    Text("Añadir amigos", style: TextStyle(fontSize: 15, color: Color.fromARGB(255, 255, 255, 255), fontFamily: "Discord", fontWeight: FontWeight.bold))
+                                    Text("Añadir amigos", style: TextStyle(fontSize: 15, color: Color.fromARGB(255, 255, 255, 255), fontFamily: "Handjet", fontWeight: FontWeight.bold, letterSpacing: 2.0))
                                 ],
                               ),
                           ),
@@ -297,7 +297,7 @@ class MainApp extends StatelessWidget {
           currentIndex: 0,
           selectedItemColor: const Color(0xffffffff),
           unselectedItemColor: const Color(0xFF868690),
-          backgroundColor: const Color(0xff141318),
+          backgroundColor: const Color.fromARGB(255, 11, 3, 43),
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(icon: Icon(Icons.star), label: "Home"),
             BottomNavigationBarItem(
