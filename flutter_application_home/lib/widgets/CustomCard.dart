@@ -59,7 +59,7 @@ class UserNotification extends StatelessWidget {
       width: 300,
       margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
       decoration: BoxDecoration(
-        color: const Color.fromARGB(255, 12, 11, 16),
+        color: const Color.fromARGB(255, 29, 1, 43),
         borderRadius: BorderRadius.circular(12),
       ),
       child: Padding(
@@ -74,7 +74,7 @@ class UserNotification extends StatelessWidget {
                 color: Color.fromARGB(255, 31, 30, 36),
                 borderRadius: BorderRadius.circular(12),
                 border: Border.all(
-                  color:Color.fromARGB(255, 31, 30, 36),
+                  color:Color.fromARGB(255, 37, 3, 53),
                   width: 5,
                 ),
                 image: DecorationImage(
