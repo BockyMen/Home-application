@@ -180,18 +180,6 @@ class MainApp extends StatelessWidget {
               Expanded(
             child: ListView(
               children: [
-
-                SizedBox(
-                  height: 110,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: [
-                      UserNotification(imagen: "https://i.pinimg.com/474x/a7/de/c4/a7dec46aca07b2e12e2e361cfa9312ec.jpg", title: 'SebitasV y hide en lan', title2: 'General'),
-                      UserNotification(imagen: "https://i.pinimg.com/474x/74/bb/34/74bb340ffe87e31837a04a538f1bbc10.jpg", title: 'Osvaldo', title2: 'Online'),
-                      UserNotification(imagen: "https://yt3.googleusercontent.com/lDfhM9v8EMD9xu5AySo8KXDP0PwajfJowF66T3Kmte6mLl69okvXnFav3zWr01mO7jNonq19-Ow=s160-c-k-c0x00ffffff-no-rj", title: 'BockyMen', title2: 'Manqueando en terror')
-                    ],
-                  ),
-                ),
                 CustomCard(
                   title: "Minecraft",
                   subtitle: "PvP 1.8.9 la mejor versión",
@@ -290,6 +278,17 @@ class MainApp extends StatelessWidget {
                 ),
               ],
             ),),
+            SizedBox(
+                  height: 110,
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    children: [
+                      UserNotification(imagen: "https://i.pinimg.com/474x/a7/de/c4/a7dec46aca07b2e12e2e361cfa9312ec.jpg", title: 'SebitasV y hide en lan', title2: 'General'),
+                      UserNotification(imagen: "https://i.pinimg.com/474x/74/bb/34/74bb340ffe87e31837a04a538f1bbc10.jpg", title: 'Osvaldo', title2: 'Online'),
+                      UserNotification(imagen: "https://yt3.googleusercontent.com/lDfhM9v8EMD9xu5AySo8KXDP0PwajfJowF66T3Kmte6mLl69okvXnFav3zWr01mO7jNonq19-Ow=s160-c-k-c0x00ffffff-no-rj", title: 'BockyMen', title2: 'Manqueando en terror')
+                    ],
+                  ),
+                ),
             ],
           ))),
         ],
