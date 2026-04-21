@@ -13,17 +13,18 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(147, 25, 36, 80),
+        backgroundColor: const Color.fromARGB(255, 56, 1, 100),
 
         body: Padding(
           padding: EdgeInsetsGeometry.directional(top: 40),
-
           child: Row(
             children: [
               Container(
                 padding: EdgeInsets.all(5),
                 width: 60,
-                decoration: BoxDecoration(color: const Color.fromARGB(181, 12, 15, 29)),
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(181, 12, 15, 29),
+                ),
                 child: ListView(
                   padding: EdgeInsets.zero,
                   children: [
@@ -281,8 +282,8 @@ class MainApp extends StatelessWidget {
                               tiempo: "5h",
                             ),
                             CustomCard(
-                              title: "Gato",
-                              subtitle: "Arabe",
+                              title: "J24",
+                              subtitle: "Le quedo grande la semana 3",
                               isSelected: false,
                               imagen:
                                   "https://i.pinimg.com/564x/7e/0e/cd/7e0ecd983170fb2e26fe2f9ec3b70058.jpg",
@@ -371,17 +372,7 @@ class MainApp extends StatelessWidget {
           ),
         ),
         bottomNavigationBar: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Color(0xff0F172A),
-                Color(0xff4F7CAC),
-                Color(0xffA0C4FF),
-              ],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-            ),
-          ),
+          decoration: const BoxDecoration(color: Color(0xff0F172A)),
           child: BottomNavigationBar(
             backgroundColor: Colors.transparent,
             type: BottomNavigationBarType.fixed,
