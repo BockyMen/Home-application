@@ -20,127 +20,6 @@ class MainApp extends StatelessWidget {
 
           child: Row(
             children: [
-              Container(
-                padding: EdgeInsets.all(5),
-                width: 60,
-                decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 44, 5, 80),
-                ),
-                child: ListView(
-                  padding: EdgeInsets.zero,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 10),
-                      child: Column(
-                        children: [
-                          Container(
-                            padding: const EdgeInsets.all(10),
-                            decoration: BoxDecoration(
-                              color: const Color.fromARGB(255, 155, 1, 185),
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            child: const Icon(
-                              Icons.messenger_sharp,
-                              color: Colors.white,
-                            ),
-                          ),
-                          const Divider(
-                            color: Colors.white24,
-                            thickness: 1,
-                            height: 20,
-                            indent: 8,
-                            endIndent: 8,
-                          ),
-                        ],
-                      ),
-                    ),
-                    barraLateralFija(
-                      image:
-                          "https://images3.memedroid.com/images/UPLOADED141/64cfe0511ed48.jpeg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/736x/c4/71/6f/c4716f6abf89833dd34ad07a914d8d81.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/474x/34/c5/c2/34c5c2147399a76b8480cbbbe6302640.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/236x/27/5b/c6/275bc68a8f813403ff9b4e46e445546a.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/236x/c3/c4/a2/c3c4a2ec8b42b36ecc33780f21642efe.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/236x/18/58/e9/1858e9edd09429d4c90de76cdeb90966.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/200x150/e0/26/2b/e0262bd7aa5870718958177090599fdd.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcUqQ1UhwCaO08YF46GOCay1PL8WRnld3Ag&s",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/474x/7f/ab/41/7fab41c52fe58b211af62c24a6d5d38b.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/736x/41/09/c6/4109c6eeb540341bf108988d2f0986c8.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/236x/a6/28/ef/a628efef5739f1f93697c98232671f5a.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                    barraLateralFija(
-                      image:
-                          "https://i.pinimg.com/736x/c2/09/2b/c2092be8d9ffbccb1b53522149da3dd8.jpg",
-                      isMessaged: true,
-                      message: 3,
-                    ),
-                    const SizedBox(height: 5),
-                  ],
-                ),
-              ),
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
@@ -367,6 +246,127 @@ class MainApp extends StatelessWidget {
                       ),
                     ],
                   ),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(5),
+                width: 60,
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(255, 44, 5, 80),
+                ),
+                child: ListView(
+                  padding: EdgeInsets.zero,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(top: 10),
+                      child: Column(
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.all(10),
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 155, 1, 185),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: const Icon(
+                              Icons.messenger_sharp,
+                              color: Colors.white,
+                            ),
+                          ),
+                          const Divider(
+                            color: Colors.white24,
+                            thickness: 1,
+                            height: 20,
+                            indent: 8,
+                            endIndent: 8,
+                          ),
+                        ],
+                      ),
+                    ),
+                    barraLateralFija(
+                      image:
+                          "https://images3.memedroid.com/images/UPLOADED141/64cfe0511ed48.jpeg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/736x/c4/71/6f/c4716f6abf89833dd34ad07a914d8d81.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/474x/34/c5/c2/34c5c2147399a76b8480cbbbe6302640.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/236x/27/5b/c6/275bc68a8f813403ff9b4e46e445546a.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/236x/c3/c4/a2/c3c4a2ec8b42b36ecc33780f21642efe.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/236x/18/58/e9/1858e9edd09429d4c90de76cdeb90966.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/200x150/e0/26/2b/e0262bd7aa5870718958177090599fdd.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmcUqQ1UhwCaO08YF46GOCay1PL8WRnld3Ag&s",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/474x/7f/ab/41/7fab41c52fe58b211af62c24a6d5d38b.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/736x/41/09/c6/4109c6eeb540341bf108988d2f0986c8.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/236x/a6/28/ef/a628efef5739f1f93697c98232671f5a.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                    barraLateralFija(
+                      image:
+                          "https://i.pinimg.com/736x/c2/09/2b/c2092be8d9ffbccb1b53522149da3dd8.jpg",
+                      isMessaged: true,
+                      message: 3,
+                    ),
+                    const SizedBox(height: 5),
+                  ],
                 ),
               ),
             ],
