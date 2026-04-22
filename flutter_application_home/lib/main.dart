@@ -136,7 +136,7 @@ class MainApp extends StatelessWidget {
                               tiempo: "5h",
                             ),
                             CustomCard(
-                              title: "J24",
+                              title: "Peso Pluma",
                               subtitle: "Sin mano jasjasj",
                               isSelected: false,
                               imagen:
