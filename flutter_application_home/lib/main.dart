@@ -257,8 +257,8 @@ class MainApp extends StatelessWidget {
                               tiempo: "5h",
                             ),
                             CustomCard(
-                              title: "Gato",
-                              subtitle: "Arabe",
+                              title: "J24",
+                              subtitle: "Sin mano jasjasj",
                               isSelected: false,
                               imagen:
                                   "https://i.pinimg.com/564x/7e/0e/cd/7e0ecd983170fb2e26fe2f9ec3b70058.jpg",
@@ -393,7 +393,7 @@ class MainApp extends StatelessWidget {
                     label: "Notifications",
                   ),
                   BottomNavigationBarItem(
-                    icon: Icon(Icons.home, size: 30),
+                    icon: Icon(Icons.home, size: 25),
                     label: "Home",
                   ),
                   BottomNavigationBarItem(
