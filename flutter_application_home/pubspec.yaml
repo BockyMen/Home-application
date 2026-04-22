@@ -60,3 +60,4 @@ flutter_icons:
   image_path: "assets/icon/Discord.png"
   image_pathadaptive_icon_foreground: "assets/icon/Discord.png"
   adaptive_icon_background: "#4B0061"
+  adaptive_icon_foreground: "assets/icon/Discord.png"
