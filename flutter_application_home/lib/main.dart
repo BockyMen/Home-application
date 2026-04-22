@@ -378,7 +378,7 @@ class MainApp extends StatelessWidget {
             vertical: 10,
           ),
           child: ClipRRect(
-            borderRadius: BorderRadius.circular(30),
+            borderRadius: BorderRadius.circular(20),
             child: SizedBox(
               height: 100,
               child: BottomNavigationBar(
